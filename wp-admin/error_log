@@ -1,0 +1,99 @@
+[20-Jul-2018 10:23:45 UTC] WordPress database error Unknown column '_cu_' in 'field list' for query SELECT _cu_
+[25-Jul-2018 11:57:48 UTC] [ Base_MixpanelBase - line 76 ] : Using token: 6fe8d87bb7308ab9accf8ac8c04ac962
+[25-Jul-2018 11:57:48 UTC] [ Base_MixpanelBase - line 173 ] : Using consumer: curl -> ConsumerStrategies_CurlConsumer
+[25-Jul-2018 11:57:48 UTC] [ Base_MixpanelBase - line 18 ] : Instantiated new Consumer
+[25-Jul-2018 11:57:48 UTC] [ Base_MixpanelBase - line 76 ] : Using token: 6fe8d87bb7308ab9accf8ac8c04ac962
+[25-Jul-2018 11:57:48 UTC] [ Base_MixpanelBase - line 173 ] : Using consumer: curl -> ConsumerStrategies_CurlConsumer
+[25-Jul-2018 11:57:48 UTC] [ Base_MixpanelBase - line 18 ] : Instantiated new Consumer
+[25-Jul-2018 11:57:48 UTC] [ Base_MixpanelBase - line 194 ] : Queued message: {"event":"Welcome Show","properties":{"mp_lib":"php","token":"6fe8d87bb7308ab9accf8ac8c04ac962","time":1532519868}}
+[25-Jul-2018 12:18:23 UTC] [ Base_MixpanelBase - line 76 ] : Using token: 6fe8d87bb7308ab9accf8ac8c04ac962
+[25-Jul-2018 12:18:23 UTC] [ Base_MixpanelBase - line 173 ] : Using consumer: curl -> ConsumerStrategies_CurlConsumer
+[25-Jul-2018 12:18:23 UTC] [ Base_MixpanelBase - line 18 ] : Instantiated new Consumer
+[25-Jul-2018 12:18:23 UTC] [ Base_MixpanelBase - line 76 ] : Using token: 6fe8d87bb7308ab9accf8ac8c04ac962
+[25-Jul-2018 12:18:23 UTC] [ Base_MixpanelBase - line 173 ] : Using consumer: curl -> ConsumerStrategies_CurlConsumer
+[25-Jul-2018 12:18:23 UTC] [ Base_MixpanelBase - line 18 ] : Instantiated new Consumer
+[25-Jul-2018 12:18:23 UTC] [ Base_MixpanelBase - line 194 ] : Queued message: {"event":"Deactivated","properties":{"mp_lib":"php","Reason":"Other","Other":"","token":"6fe8d87bb7308ab9accf8ac8c04ac962","time":1532521103}}
+[25-Jul-2018 12:18:23 UTC] [ Base_MixpanelBase - line 194 ] : Queued message: {"event":"Used Time","properties":{"mp_lib":"php","Seconds":1235,"Hours":0,"Days":0,"token":"6fe8d87bb7308ab9accf8ac8c04ac962","time":1532521103}}
+[25-Jul-2018 12:18:25 UTC] [ Base_MixpanelBase - line 76 ] : Using token: 6fe8d87bb7308ab9accf8ac8c04ac962
+[25-Jul-2018 12:18:25 UTC] [ Base_MixpanelBase - line 173 ] : Using consumer: curl -> ConsumerStrategies_CurlConsumer
+[25-Jul-2018 12:18:25 UTC] [ Base_MixpanelBase - line 18 ] : Instantiated new Consumer
+[25-Jul-2018 12:18:25 UTC] [ Base_MixpanelBase - line 76 ] : Using token: 6fe8d87bb7308ab9accf8ac8c04ac962
+[25-Jul-2018 12:18:25 UTC] [ Base_MixpanelBase - line 173 ] : Using consumer: curl -> ConsumerStrategies_CurlConsumer
+[25-Jul-2018 12:18:25 UTC] [ Base_MixpanelBase - line 18 ] : Instantiated new Consumer
+[25-Jul-2018 12:18:25 UTC] [ Base_MixpanelBase - line 194 ] : Queued message: {"event":"Deactivated","properties":{"mp_lib":"php","Reason":"Other","Other":"aaa","token":"6fe8d87bb7308ab9accf8ac8c04ac962","time":1532521105}}
+[25-Jul-2018 12:18:25 UTC] [ Base_MixpanelBase - line 194 ] : Queued message: {"event":"Used Time","properties":{"mp_lib":"php","Seconds":1237,"Hours":0,"Days":0,"token":"6fe8d87bb7308ab9accf8ac8c04ac962","time":1532521105}}
+[28-Jul-2018 06:10:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php:13
+Stack trace:
+#0 /home/dpws/public_html/CLAIM-WIN/wp-settings.php(305): include_once()
+#1 /home/dpws/public_html/CLAIM-WIN/wp-config.php(89): require_once('/home/dpws/publ...')
+#2 /home/dpws/public_html/CLAIM-WIN/wp-load.php(37): require_once('/home/dpws/publ...')
+#3 /home/dpws/public_html/CLAIM-WIN/wp-admin/admin.php(31): require_once('/home/dpws/publ...')
+#4 /home/dpws/public_html/CLAIM-WIN/wp-admin/plugins.php(10): require_once('/home/dpws/publ...')
+#5 {main}
+  thrown in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 13
+[28-Jul-2018 06:10:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php:13
+Stack trace:
+#0 /home/dpws/public_html/CLAIM-WIN/wp-settings.php(305): include_once()
+#1 /home/dpws/public_html/CLAIM-WIN/wp-config.php(89): require_once('/home/dpws/publ...')
+#2 /home/dpws/public_html/CLAIM-WIN/wp-load.php(37): require_once('/home/dpws/publ...')
+#3 /home/dpws/public_html/CLAIM-WIN/wp-admin/admin.php(31): require_once('/home/dpws/publ...')
+#4 /home/dpws/public_html/CLAIM-WIN/wp-admin/plugins.php(10): require_once('/home/dpws/publ...')
+#5 {main}
+  thrown in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 13
+[28-Jul-2018 06:11:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php:12
+Stack trace:
+#0 /home/dpws/public_html/CLAIM-WIN/wp-settings.php(305): include_once()
+#1 /home/dpws/public_html/CLAIM-WIN/wp-config.php(89): require_once('/home/dpws/publ...')
+#2 /home/dpws/public_html/CLAIM-WIN/wp-load.php(37): require_once('/home/dpws/publ...')
+#3 /home/dpws/public_html/CLAIM-WIN/wp-admin/admin-ajax.php(22): require_once('/home/dpws/publ...')
+#4 {main}
+  thrown in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 12
+[28-Jul-2018 06:11:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php:12
+Stack trace:
+#0 /home/dpws/public_html/CLAIM-WIN/wp-settings.php(305): include_once()
+#1 /home/dpws/public_html/CLAIM-WIN/wp-config.php(89): require_once('/home/dpws/publ...')
+#2 /home/dpws/public_html/CLAIM-WIN/wp-load.php(37): require_once('/home/dpws/publ...')
+#3 /home/dpws/public_html/CLAIM-WIN/wp-admin/admin.php(31): require_once('/home/dpws/publ...')
+#4 /home/dpws/public_html/CLAIM-WIN/wp-admin/plugins.php(10): require_once('/home/dpws/publ...')
+#5 {main}
+  thrown in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 12
+[28-Jul-2018 06:11:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php:12
+Stack trace:
+#0 /home/dpws/public_html/CLAIM-WIN/wp-settings.php(305): include_once()
+#1 /home/dpws/public_html/CLAIM-WIN/wp-config.php(89): require_once('/home/dpws/publ...')
+#2 /home/dpws/public_html/CLAIM-WIN/wp-load.php(37): require_once('/home/dpws/publ...')
+#3 /home/dpws/public_html/CLAIM-WIN/wp-admin/admin.php(31): require_once('/home/dpws/publ...')
+#4 /home/dpws/public_html/CLAIM-WIN/wp-admin/plugins.php(10): require_once('/home/dpws/publ...')
+#5 {main}
+  thrown in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 12
+[28-Jul-2018 06:12:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php:12
+Stack trace:
+#0 /home/dpws/public_html/CLAIM-WIN/wp-settings.php(305): include_once()
+#1 /home/dpws/public_html/CLAIM-WIN/wp-config.php(89): require_once('/home/dpws/publ...')
+#2 /home/dpws/public_html/CLAIM-WIN/wp-load.php(37): require_once('/home/dpws/publ...')
+#3 /home/dpws/public_html/CLAIM-WIN/wp-admin/admin.php(31): require_once('/home/dpws/publ...')
+#4 /home/dpws/public_html/CLAIM-WIN/wp-admin/plugins.php(10): require_once('/home/dpws/publ...')
+#5 {main}
+  thrown in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 12
+[28-Jul-2018 06:12:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php:12
+Stack trace:
+#0 /home/dpws/public_html/CLAIM-WIN/wp-settings.php(305): include_once()
+#1 /home/dpws/public_html/CLAIM-WIN/wp-config.php(89): require_once('/home/dpws/publ...')
+#2 /home/dpws/public_html/CLAIM-WIN/wp-load.php(37): require_once('/home/dpws/publ...')
+#3 /home/dpws/public_html/CLAIM-WIN/wp-admin/admin.php(31): require_once('/home/dpws/publ...')
+#4 /home/dpws/public_html/CLAIM-WIN/wp-admin/plugins.php(10): require_once('/home/dpws/publ...')
+#5 {main}
+  thrown in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 12
+[28-Jul-2018 06:16:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'claim_forms_function' not found or invalid function name in /home/dpws/public_html/CLAIM-WIN/wp-includes/class-wp-hook.php on line 286
+[28-Jul-2018 06:20:51 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 16
+[28-Jul-2018 06:20:54 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 16
+[28-Jul-2018 06:20:54 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 16
+[28-Jul-2018 06:20:57 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 16
+[28-Jul-2018 06:53:53 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 41
+[28-Jul-2018 06:55:10 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 42
+[28-Jul-2018 06:55:12 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 42
+[28-Jul-2018 06:55:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 42
+[28-Jul-2018 06:55:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 42
+[28-Jul-2018 06:55:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 42
+[23-Aug-2018 05:15:02 UTC] PHP Catchable fatal error:  Object of class WP_User could not be converted to string in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 49
+[23-Aug-2018 05:18:41 UTC] PHP Catchable fatal error:  Object of class WP_User could not be converted to string in /home/dpws/public_html/CLAIM-WIN/wp-content/plugins/claim_form/claim_form_dashboard.php on line 49

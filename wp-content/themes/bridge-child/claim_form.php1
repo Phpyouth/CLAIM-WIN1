@@ -1,0 +1,82 @@
+<?php 
+/*
+Template Name: Claim Form
+*/ 
+if($_POST['claim_submit']){
+	extract($_POST);
+	$con = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
+	/*if (mysqli_connect_errno()){ echo "Failed to connect to MySQL: " . mysqli_connect_error(); }
+	else{ echo 'connected'; }*/
+	$submit_claim = mysqli_query($con,"INSERT INTO `_cu_claim_form` (`forwhat_claim`, `flight_num`, `flight_date`, `dept_airport`, `arriv_airport`, `airline`, `claimimg_pessangers`, `booking_ref`, `alt_flight`, `cancel_details_hotel`, `cancel_reason`, `reminder_date`, `airline_ref`, `time_claim_sub`, `time_reply_airline`, `internal_notes`, `status`) VALUES ('$forwhat_claim','$flight_num','$flight_date','$dept_airport','$arriv_airport','$airline','$claimimg_pessangers','$booking_ref','$alt_flight','$cancel_details_hotel','$cancel_reason','$reminder_date','$airline_ref','$time_claim_sub','$time_reply_airline','$internal_notes','0')");
+	//echo "INSERT INTO `_cu_claim_form` (`forwhat_claim`, `flight_num`, `flight_date`, `dept_airport`, `arriv_airport`, `airline`, `claimimg_pessangers`, `booking_ref`, `alt_flight`, `cancel_details_hotel`, `cancel_reason`, `reminder_date`, `airline_ref`, `time_claim_sub`, `time_reply_airline`, `internal_notes`, `status`) VALUES ('$forwhat_claim','$flight_num','$flight_date','$dept_airport','$arriv_airport','$airline','$claimimg_pessangers','$booking_ref','$alt_flight','$cancel_details_hotel','$cancel_reason','$reminder_date','$airline_ref','$time_claim_sub','$time_reply_airline','$internal_notes','0')";
+	if($submit_claim){
+		$success_message = '<h2 id="success_message">form submitted successfully</div>';
+	}
+}
+?>
+<?php get_header(); ?>
+ 
+<div id="primary" class="content-area grid_section">
+    <main id="main" class="site-main section_inner" role="main">
+		<?php echo $success_message; ?>
+		<form method="post" id="claim_form">
+			<div class="form-field">
+				<label for="forwhat_claim">For what you want claim*</label> 
+				<select id="forwhat_claim" required name="forwhat_claim">
+					<option value="late_flight">Late Flight</option>
+					<option value="luggage_damage">Luggage - damaged</option>
+					<option value="luggage_lost">Luggage - lost</option>
+				</select>
+			</div>
+			<div class="form-field">
+				<label for="flight_num">Flight Number*</label> <input type="text" required name="flight_num" id="flight_num"  />
+			</div>
+			<div class="form-field">
+				<label for="flight_date">Flight Date*</label> <input type="date" required name="flight_date" id="flight_date"  />
+			</div>
+			<div class="form-field">
+				<label for="dept_airport">Departure airport*</label> <input type="text" required name="dept_airport" id="dept_airport"  />
+			</div>
+			<div class="form-field">
+				<label for="arriv_airport">Arrival airport*</label> <input type="text" required name="arriv_airport" id="arriv_airport"  />
+			</div>
+			<div class="form-field">
+				<label for="airline">Airline Name*</label> <input type="text" required name="airline" id="airline"  />
+			</div>
+			<div class="form-field">
+				<label for="claimimg_pessangers">Number of pessangers</label> <input type="number" name="claimimg_pessangers" id="claimimg_pessangers"  />
+			</div>
+			<div class="form-field">
+				<label for="booking_ref">Booking Refrence</label> <input type="text" name="booking_ref" id="booking_ref"  />
+			</div>
+			<div class="form-field">
+				<label for="alt_flight">Alternate Flight <small>(If flight is cancelled)</small> </label> <input type="text" name="alt_flight" id="alt_flight"  />
+			</div>
+			<div class="form-field">
+				<label for="cancel_details_hotel">Details on overnight hotel / transfers* <small>(If flight is cancelled)</small></label> <textarea required name="cancel_details_hotel" id="cancel_details_hotel" ></textarea>
+			</div>
+			<div class="form-field">
+				<label for="cancel_reason">Reason for cancellation <small>(If flight is cancelled)</small></label> 
+				<select id="cancel_reason" name="cancel_reason">
+					<option value="">Select Reason</option>
+					<option value="very_delay">Very Delay in flight</option>
+					<option value="flight_accident">Any flight accident</option>
+					<option value="natural_disaster">Any natural disaster</option>
+				</select>
+			</div>
+			<div class="form-field">
+				<label for="reminder_date">Reminder date</label> <input type="date" name="reminder_date" id="reminder_date"  />
+			</div>
+			<div class="form-field">
+				<input type="submit" name="claim_submit" value="Get Claim"  />
+			</div>
+		</form>
+ 
+    </main><!-- .site-main -->
+ 
+    <?php get_sidebar( 'content-bottom' ); ?>
+ 
+</div><!-- .content-area -->
+ 
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>

@@ -1,0 +1,186 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+@media(max-width:1024px) and (min-width:1000px){
+.sufferredempt {
+    height: 20px !important;
+}
+  .counter-4-main .section_inner_margin {
+    position: relative;
+    left: 50%;
+    transform: translate(-43%);
+}
+}
+@media(max-width:768px){
+  h2{font-size: 34px;}
+  .testimonials_c_holder .testimonial_content_inner{padding:20px 40px !important;}
+ .counter-4-main .section_inner {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+  .icons-sec1:after{ right: 5px !important;}
+  .sufferredemptlast{display:none;}
+  .del-flight,.del-luggage{width:100%;}
+.details1 .section_inner.clearfix,.details .section_inner.clearfix {
+    width: 100% !important;
+}
+  .col-sm-left p {
+    text-align: left;
+}
+  .col-sm-left {
+    text-align: center !important;
+      width: 90%;
+}
+  .col-sm-left .wpb_wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+ .sufferredempt {
+    height: 10px !important;
+}
+}
+@media(min-width:601px){
+   .section-1{padding-top: 60px;padding-bottom: 100px;
+  }
+  .contact-s11{padding:70px 0 107px 0;}
+  .our-process {
+    padding:80px 0;
+  
+}
+  #how-it-works{ padding-bottom: 80px ;}
+  .our_costs{ padding-top: 80px;padding-bottom:80px;}
+  .faq_section{padding-top:90px !important;}
+ .essential{padding-top:140px;padding-bottom:60px;}
+}
+@media(max-width:600px){
+  #how-it-works{ padding-bottom: 50px ;}
+    .our_costs{ padding-top: 50px;padding-bottom:50px;}
+  .map-column-contact .wpb_raw_code {
+       margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    position: relative;
+    top: 0px !important;
+}
+   .our-process .vc_col-sm-12 {
+    padding:40px 0;
+  
+}
+  .faq_section{padding: 50px 0 50px 0!important;}
+ 
+ .counter-4-main .section_inner {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+ .details1 .section_inner.clearfix{
+    padding: 0px 0 !important;
+  }
+.col-sm-left {
+    text-align: center !important;
+    width: 90%;
+    margin: 0 auto;
+}
+ 
+  .col-sm-left .wpb_wrapper {
+    max-width: 100%;
+  }
+  .col-sm-right {
+    padding-top: 50px;
+}
+}
+@media(min-width:426px){
+  .row .form-field.col-md-6 label {
+    width: 100% !important;
+  }
+.form-field.col-md-6 label {
+    width: 30% !important;
+    margin-right: 30px;
+}
+}
+@media(max-width:425px){
+  .content_inner > #primary {
+    margin-top: 50px !important;
+}
+  form#claim_form input[type="submit"]{font-size: 14px !important;}
+  form#claim_form {
+    margin-bottom: 379px !important;
+}
+  form#claim_form .row{display:block !important;}
+  form#claim_form .form-field.col-md-4 {
+    width: 100% !important;
+  }
+  .row .form-field.col-md-6 label{width:100% !important;}
+  .form-field.col-md-6 label {
+    width: 30% !important;
+    margin-right: 24px;
+}
+  .form-field.col-md-6 {
+    text-align:center;
+    width: 100% !important;
+   }
+  input#address {
+    margin-left: 23px !important;
+}
+ input#first_name {
+    margin-left: 41px !important;
+}
+input#last_name {
+    margin-left: 10px !important;
+}
+input#email {
+    margin-left: 44px !important;
+}
+.form-field.col-md-6 input#dateofbirth {
+    margin-left: -14px !important;
+}
+
+  .section-1 {
+    padding-bottom: 50px !important;
+}
+  .our-process {
+    margin-bottom: 8px !important;
+}
+  #how-it-works .vc_col-sm-4,.our-process .vc_col-sm-3 {
+    margin-bottom: 29px !important;
+}
+  .qode-accordion-holder .qode-accordion-content{padding: 0 0 31px 0 !important; }
+  .qode-accordion-holder .qode-title-holder .qode-tab-title span.qode-tab-title-inner:only-child {
+    line-height: 20px;
+     font-size: 14px;
+}
+   .essential{padding-top:40px;padding-bottom:40px;}
+  .wework .vc_col-sm-2 {
+    padding: 20px 0;
+  }
+  .wework .wpb_content_element.vc_align_left{text-align:center !important;}
+  .price_second h2 {
+    font-size: 22px !important;
+    line-height:28px !important;
+   
+}
+  .page-id-678 .section_inner{width:90% !important;}
+  .icons-sec1:after{background:none!important;}
+  .testimonial_title_holder{ font-size: 24px;line-height: 33px !important;}
+  .testimonials_c_holder .testimonial_content_inner{padding:0px !important;}
+.sufferredempt {
+    height: 25px !important;
+}
+     .del-flight h2,.del-luggage h2{font-size: 22px;line-height: 35px;}
+      .del-flight h5,.del-luggage h5{font-size: 18px;line-height: 25px;}
+     
+  h2{font-size: 28px;line-height: 36px;}
+}
+
+@media(max-width:320px){
+.counter-4-main .section_inner_margin {
+    position: relative;
+    left: 50%;
+    transform: translate(-17%);
+}
+ .del-flight h2, .del-luggage h2 {
+    font-size: 19px !important;;
+    line-height:0px !important;;
+  }
+}</style>
+<!-- end Simple Custom CSS and JS -->

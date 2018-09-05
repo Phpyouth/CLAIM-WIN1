@@ -1,0 +1,105 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css");
+
+.content_inner > #primary { margin-top:150px; }
+
+h2#error_message {
+    color: red;
+    font-size: 30px;
+}
+h2#success_message {
+    color: #99b63b;
+    font-size: 30px;
+}
+div#claim_form_table_holder {
+    overflow-x: auto;
+}
+table#claim_form_table th, table#claim_form_table td {
+    border: 2px solid #99b63b;
+    max-height: 150px !important;
+}
+#claim_form_table thead {
+    background: #124479;
+    color: #fff;
+}
+div#claim_request_title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+span.show_more {
+    color: #99b63b;
+}
+.ui-widget-overlay.ui-front {
+    background: #000 !important;
+}
+.ui-dialog {
+    z-index: 1002 !important;
+    padding-bottom: 20px;
+	width: 350px !important;
+}
+.ui-dialog-titlebar {
+    background: #99b63b;
+	padding: 0;
+}
+.ui-dialog-titlebar .ui-button {
+    color: #fff;
+    padding: 15px 25px 15px 25px;
+    cursor: pointer;
+    font-size: 20px;
+}
+label.zm_alr_label {
+    display: none;
+    color: #99b63b;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+label.zm_alr_label[for="zm_alr_login_keep_me_logged_in"] {
+    display: block !important;
+}
+.ui-widget input {
+    font-size: 15px;
+}
+
+.ui-dialog-titlebar .ui-button:hover , .ui-dialog-titlebar .ui-dialog-title:hover {
+    background: #76844b;
+    opacity: 0.7;
+}
+.ui-dialog-title {
+    padding: 15px 25px 15px 25px;
+    position: absolute;
+    cursor: pointer;
+    color: #fff;
+    text-shadow: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+.zm_alr_form_container input[type="submit"] {
+    color: #99b63b !important;
+    font-size: 15px;
+	width: 100%;
+}
+.zm_alr_form_container input[type="submit"]:hover {
+    opacity: 0.7;
+}
+a.zm_alr_link {
+    color: #99b63b;
+    font-size: 15px;
+}
+form#claim_form input[type="submit"] {
+    cursor: pointer;
+}
+form#claim_form input[type="submit"]:hover {
+    opacity: 0.7;
+}

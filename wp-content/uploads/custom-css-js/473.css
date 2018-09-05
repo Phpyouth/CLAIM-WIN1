@@ -1,0 +1,388 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+@media (min-width:1200px){
+  
+  .section-1 { margin-top: -250px; }
+  .results-onethird > .vc_column-inner { padding: 80px 35px; }
+  .counter-4-inner .section_inner_margin { position: relative; left: 6vw; }
+}
+
+.mobappsecond_inner h2 {
+    font-size: 24px !important;
+}
+.colors .section_inner.clearfix {
+    background: #f5f8f9 !important;
+}
+.details_content {
+    width: 40%;
+    margin: 0 auto;
+}
+.display-none {display:none;}
+.page-id-1531 .title.title_size_large.position_left.has_background {
+    display: none;
+}
+.footer_top .widget.widget_nav_menu li { padding-bottom: 5px; }
+.how-it-works-image {
+    max-width: 1060px;
+    position: relative;
+    left: 133px;
+    margin-bottom: 45px !important;
+}
+.counter_text {
+    margin-top: -1px !important;
+    max-width: 165px;
+    font-size: 14px !important;
+    line-height: 20px;
+}
+.testimonials_c_holder .testimonial_content_inner {
+    background: transparent;
+}
+img.our-process-img {
+    margin: 40px 0 !important;
+}
+.faq_section {
+    background-image: url(http://dpws-demo.site/CLAIM-WIN/wp-content/uploads/2018/07/Layer-28.png);
+    background-color: #99b63b;
+    padding: 0 0 100px 0;
+}
+.our_costs .section_inner_margin { max-width: 768px; margin: 0 auto; }
+.section-1 i {
+    margin-right: 20px;
+}
+.icon-1-money p { position: relative; top: -10px; }
+.icons-sec1 {
+    position: relative;
+}
+.icons-sec1:after {
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 1px;
+    background: #99B63B;
+    top: 0;
+    right: 35px;
+}
+/*h2:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 160px;
+    background: rgba(0, 0, 0, .5);
+    bottom: -15px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}*/
+h2 {
+    position: relative;
+}
+.results-onethird h2:after { background: transparent !important; }
+.wide-btn a {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.wider-btn {
+    font-size: 24px;
+    font-weight: 500;
+    border-color: transparent !important;
+}
+.how-works-icon {
+    margin-bottom: 20px !important;
+}
+.delay-claim-icon {
+    margin-bottom: 30px !important;
+    margin-top: 30px;
+}
+
+img.our-process:hover, img.delay-claim-icon:hover, img.how-works-icon:hover {
+    transform: scale(1.05);
+    transition: .3s linear;
+}
+img.our-process, img.delay-claim-icon, img.how-works-icon {
+    transition: .3s linear;
+}
+p.testimonial_author {
+    font-size: 20px !important;
+    font-style: italic;
+    font-weight: 600 !important;
+}
+.testimonial_text_inner p:first-child {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.icon-1-money .fa-money:before {
+    content: url(http://dpws-demo.site/CLAIM-WIN/wp-content/uploads/2018/07/note.png);
+}
+.icon-wallet .icon-ecommerce-wallet:before {
+    content: url(http://dpws-demo.site/CLAIM-WIN/wp-content/uploads/2018/07/wallet-1.png);
+}
+.icon-users .fa-users:before {
+    content: url(http://dpws-demo.site/CLAIM-WIN/wp-content/uploads/2018/07/group.png);
+}
+.icon-users i, .icon-wallet i, .icon-1-money i {
+    background: transparent !important;
+    border-color: transparent !important;
+}
+.wpcf7 .cf7-static-phone {
+    text-align: center !important;
+    display: block;
+}
+#wpcf7-f455-p253-o1 {
+    border: 1px solid #f7f7f7;
+    padding: 15px !important;
+}
+.map-column-contact .wpb_raw_code {
+    padding: 10px 0 30px 0;
+    background: rgba(153, 182, 59, .1);
+    margin-top: -60px;
+    margin-bottom: 20px !important;
+    position: relative;
+    top: 60px;
+}
+.registered_office {
+    margin-top: 25px;
+}
+.registered_office p {
+    font-size: small;
+    font-family: poppins;
+}
+.about-img img { position: relative; left: -50px; }
+#back_to_top.on {
+    left: 25px;
+}
+.del-flight h2, .del-flight h5, .del-luggage h2, .del-luggage h5 {
+    color: #fff;
+}
+.del-flight {
+    background: linear-gradient(0deg,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.0)),url(http://dpws-demo.site/CLAIM-WIN/wp-content/uploads/2018/07/del-flt.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.del-flight h2:after, .del-luggage h2:after {
+    background: #fff;
+}
+.del-luggage {
+    background: linear-gradient(0deg,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(http://dpws-demo.site/CLAIM-WIN/wp-content/uploads/2018/07/del-lgz.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.claims-settled .q_counter_holder:before {
+    content: '';
+    background: url(http://dpws-demo.site/CLAIM-WIN/wp-content/uploads/2018/07/1.png);
+    position: absolute;
+    left: -55px;
+    top: 25px;
+    width: 80px;
+    height: 80px;
+    display: inline-block !important;
+    background-repeat: no-repeat;
+    background-size: 63px;
+}
+.compensation-rec .q_counter_holder:before {
+    content: '';
+    background: url(http://dpws-demo.site/CLAIM-WIN/wp-content/uploads/2018/07/2.png);
+    position: absolute;
+    left: -55px;
+    top: 25px;
+    width: 80px;
+    height: 80px;
+    display: inline-block !important;
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+.fast-claims .q_counter_holder:before {
+    content: '';
+    background: url(http://dpws-demo.site/CLAIM-WIN/wp-content/uploads/2018/07/3.png);
+    position: absolute;
+    left: -70px;
+    top: 25px;
+    width: 80px;
+    height: 80px;
+    display: inline-block !important;
+    background-repeat: no-repeat;
+    background-size: 75px;
+}
+.claim-success .q_counter_holder:before {
+    content: '';
+    background: url(http://dpws-demo.site/CLAIM-WIN/wp-content/uploads/2018/07/4.png);
+    position: absolute;
+    left: -55px;
+    top: 25px;
+    width: 80px;
+    height: 80px;
+    display: inline-block !important;
+    background-repeat: no-repeat;
+    background-size: 63px;
+}
+.pricing-table-101 .price_table_inner {
+    background-color: #99b63b;
+}
+.price_first h1{
+    font-size: 36px;
+  font-weight: 400;
+}
+.price_second h2 {
+    font-size: 32px;
+    font-weight: 400;
+   }
+.price_second p {
+    font-size: 16px;
+        margin: 3px 0px 28px;
+}
+.price-table table{
+    border: 1px solid #e6edf5;
+    margin-top: 40px;
+    max-width: 100%;
+    vertical-align: middle;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+.price-table td {
+  text-align:left;
+    padding: 10px;
+    border-top: 1px solid #e6edf5;
+}
+.affiliate h3 {
+    padding: 30px 0 0;
+}
+
+.mobappsecond_inner .section_inner.clearfix {
+    border-bottom: 1px solid #D9D9D9;
+}
+.qode-accordion-holder h4{font-size:15px !important;font-weight:600;}
+.details .section_inner.clearfix {
+        padding: 70px 40px !important;
+    border: 1px solid #D9D9D9;
+}
+@media(min-width:768px){
+.details1 .section_inner.clearfix {
+        padding: 70px 40px !important;
+  }
+}
+.apps {
+    display: flex;
+}
+.googleapp {
+    margin-left: 15px;
+}
+
+form#claim_form input[type="submit"] {
+    background: #99B63B;
+    border: #98B63B;
+    padding: 15px 45px;
+    border-radius: 51px;
+    font-size: 23px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top:30px
+}
+
+select, input[type="date"] {
+    width: auto;
+    padding: 6px 20px;
+}
+form#claim_form textarea, form#claim_form select, form#claim_form input:not([type]), form#claim_form input[type="email" i], form#claim_form input[type="number" i], form#claim_form input[type="password" i], form#claim_form input[type="tel" i], form#claim_form input[type="url" i], form#claim_form input[type="text" i], form#claim_form input[type="date"] {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    color: #2C3E50;
+    font-size: 16px;
+}
+form#claim_form label {
+    color: hsla(0, 0%, 0%, .8);
+    padding: 10px;
+    text-align: left;
+    float: left;
+    padding-left: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+}
+form#claim_form {
+    margin-bottom: 50px;
+}
+form#claim_form .form-field.col-md-6 {
+    width: 50%;
+    /* margin-right: 17px; */
+    /* margin: 0px; */
+    padding-right: 30px;
+}
+form#claim_form .row {
+    width: 100%;
+    display: flex;
+  margin-bottom: 10px;
+}
+form#claim_form textarea#cancel_details_hotel {
+    height: 70px;
+    width: 100%;
+}
+form#claim_form .form-field.col-md-4 {
+    width: 31%;
+    padding-right: 30px;
+}
+form#claim_form .form-field {
+    width: 97%;
+    padding-right: 35px;
+}
+
+body.loggedout_user .logged_in , body.loggedin_user .logged_out {
+    display: none !important;
+}
+.drop_down .narrow .second .inner ul li {
+    width: 150px;
+}
+.drop_down .narrow .second .inner ul li a {
+    font-size: 13px;
+}
+.form-field.col-md-6 { margin: 10px 0; width: 50%;  float: left;}
+
+.form-field.col-md-6 input#dateofbirth {
+    margin-left: -20px;
+}
+.form-field.col-md-6 input {
+    width: 50%;
+    padding: 10px;
+}
+
+input#updateuser {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    border-color: #124479;
+    font-size: 14px;
+    line-height: 25px;
+    height: 44px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #124479;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    letter-spacing: 0px;
+    text-transform: inherit;
+      width: 200px;
+   cursor:pointer;
+}
+.form-field.col-md-6 span {
+    color: red !important;
+}
+input#address {
+    margin-left: -23px;
+}
+input#last_name {
+    margin-left: 2px;
+}
+input#first_name {
+    margin-left: -3px;
+}</style>
+<!-- end Simple Custom CSS and JS -->
